@@ -13,7 +13,7 @@ Welcome to the Restaurant Landing Page project! This repository contains the cod
 
 ## Demo
 
-You can view a live demo of the landing page [here](https://example.com/restaurant-landing-page).
+You can view a live demo of the landing page [here](https://Restaurant-Landing-Page).
 
 ## Getting Started
 
