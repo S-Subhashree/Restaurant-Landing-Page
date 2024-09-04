@@ -11,10 +11,6 @@ Welcome to the Restaurant Landing Page project! This repository contains the cod
 - **Interactive Elements:** JavaScript functionalities for smooth user interactions.
 - **CSS Animations:** Engaging animations for a more dynamic user experience.
 
-## Demo
-
-You can view a live demo of the landing page [here](https://Restaurant-Landing-Page).
-
 ## Getting Started
 
 ### Prerequisites
