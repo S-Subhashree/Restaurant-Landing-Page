@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">Restaurant</div>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+        <div class="hero">
+            <h1>Welcome to Our Restaurant</h1>
+            <p>Delicious meals and unforgettable experiences.</p>
+            <button id="reserveButton">Reserve a Table</button>
+        </div>
+    </header>
+    
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <h2 id="hd">Crazy Deals TODAY! &#128540;</h2>
+        <p>Flat 50% OFF</p>
+        <div class="menu-items">
+            <div class="menu-item" id="menu1">
+                <h3>Chicken Biriyani</h3>
+                <p>it's a Non-veg dish.</p>
+                <p class="price"> 89.99/- </p>
+            </div>
+            <div class="menu-item" id="menu2">
+                <h3>Paneer Biriyani</h3>
+                <p>it's a Veg dish.</p>
+                <p class="price"> 69.98/- </p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Information about the restaurant, its history, and values.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div id="responseMessage"></div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Restaurant Name. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.navbar nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    /*background: url('https://via.placeholder.com/1600x600') no-repeat center center;*/
+    background-image: url("image.png");
+    background-size: cover;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+button {
+    background: #e94e77;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #d43f60;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#menu .menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-item {
+    background: #f9f9f9;
+    color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: calc(50% -40px);
+    box-sizing: border-box;
+    position: relative;
+}
+
+.menu-item h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.menu-item p {
+    margin: 10px 0;
+}
+
+.price {
+    font-weight: bold;
+    font-family: cursive;
+    color: white;
+    background-color: rgb(243, 22, 22);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+#menu1{
+    background-image: url("Nonveg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#menu2{
+    background-image: url("Veg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hd{
+    color: orangered;
+    font-size: 30px;
+    animation-name: example;
+    animation-duration: 3s;
+}
+@keyframes example{
+    from {color: orangered;}
+    to {color: black;}
+}
+#menu h2{
+    font-size: 30px;;
+}
