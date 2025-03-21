@@ -24,4 +24,4 @@ Welcome to the Restaurant Landing Page project! This repository contains the cod
 
    ```sh
    git clone https://github.com/S-Subhashree/Restaurant-Landing-Page.git
-https://github.com/S-Subhashree/Restaurant-Landing-Page.git
+
