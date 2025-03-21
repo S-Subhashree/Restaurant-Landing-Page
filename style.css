@@ -55,7 +55,7 @@ header {
 }
 
 button {
-    background: #e94e77;
+    background: #df0b0b;
     color: #fff;
     border: none;
     padding: 15px 30px;
@@ -93,21 +93,22 @@ section {
 
 .menu-item h3 {
     margin: 0;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .menu-item p {
-    margin: 10px 0;
+    margin: 100px 100px;
 }
 
 .price {
     font-weight: bold;
     font-family: cursive;
-    color: white;
-    background-color: rgb(243, 22, 22);
-    position: absolute;
+    font-size: 20px;
+    color: rgb(12, 12, 4);
+    background-color: rgb(243, 243, 43);
+    position:absolute;
     bottom: 0px;
-    left: 0px;
+    left: 20px;
 }
 
 footer {
